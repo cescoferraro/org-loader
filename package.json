@@ -1,7 +1,7 @@
 {
   "name": "org-loader",
   "version": "1.0.0",
-  "description": "",
+  "description": "A org file loader",
   "main": "dist/cjs.js",
   "scripts": {
     "test": "jest",

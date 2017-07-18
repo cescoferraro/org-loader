@@ -45,6 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ```js
 require("org-loader!./file.EXT");
 
+
 // Bundle code here...
 ```
 
@@ -58,36 +59,8 @@ https://api.github.com/users/MAINTAINER
   <tbody>
     <tr>
       <td align="center">
-        <a href="https://github.com/">
-          <img width="150" height="150" src="https://avatars.githubusercontent.com/u/5419992?v=3&s=150">
-          </br>
-          Name
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/">
-          <img width="150" height="150" src="https://avatars.githubusercontent.com/u/5419992?v=3&s=150">
-          </br>
-          Name
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/">
-          <img width="150" height="150" src="https://avatars.githubusercontent.com/u/5419992?v=3&s=150">
-          </br>
-          Name
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/">
-          <img width="150" height="150" src="https://avatars.githubusercontent.com/u/5419992?v=3&s=150">
-          </br>
-          Name
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/">
-          <img width="150" height="150" src="https://avatars.githubusercontent.com/u/5419992?v=3&s=150">
+        <a href="https://github.com/cescoferraro">
+          <img width="150" height="150" src="https://avatars3.githubusercontent.com/u/6259987?v=4">
           </br>
           Name
         </a>
