@@ -3,7 +3,7 @@ const loaderUtils = require('loader-utils');
 const cheerio = require('cheerio');
 
 
-module.exports = function OrgLoader(content) {
+export default function OrgLoader(content) {
   const query = loaderUtils.getOptions(this) || {};
   const convertOptions = {
     exportFromLineNumber: query.exportFromLineNumber || true,
@@ -16,8 +16,8 @@ module.exports = function OrgLoader(content) {
     tocHtml: query.tocHtml || false,
   };
   const defaultOpts = {
-    removeTitle: query.removeTitle || true
-  }
+    removeTitle: query.removeTitle || true,
+  };
   const parser = new org.Parser(parserOptions);
   const orgDocument = parser.parse(content);
   const orgHTMLDocument = orgDocument.convert(org.ConverterHTML, convertOptions);
@@ -26,4 +26,4 @@ module.exports = function OrgLoader(content) {
     $('body h1').remove();
   }
   return `module.exports = ${JSON.stringify($('body').html())}`;
-};
+}

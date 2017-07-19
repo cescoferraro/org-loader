@@ -24,35 +24,28 @@ npm install --save-dev org-loader
 
 ### Lorem
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+A very simple org file loader for webpack.
 
 <h2 align="center">Examples</h2>
+Require it
 
-**webpack.config.js**
-
-```js
-// Loader/plugin setup here..
+```
+require("org-loader!./file.org");
 ```
 
-**file.ext**
+then use it
 
-```js
-// Source code here...
+```
+<div className={CSS.container} dangerouslySetInnerHTML={{ __html: test }} />
 ```
 
-**bundle.js**
-
-```js
-require("org-loader!./file.EXT");
-
-
-// Bundle code here...
-```
 
 <h2 align="center">Maintainers</h2>
 
-```bash
-https://api.github.com/users/MAINTAINER
+```
+
+https://api.github.com/users/cescoferraro
+
 ```
 
 <table>
@@ -62,7 +55,7 @@ https://api.github.com/users/MAINTAINER
         <a href="https://github.com/cescoferraro">
           <img width="150" height="150" src="https://avatars3.githubusercontent.com/u/6259987?v=4">
           </br>
-          Name
+          @cescoferraro
         </a>
       </td>
     </tr>
